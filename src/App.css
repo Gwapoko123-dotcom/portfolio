@@ -1,0 +1,91 @@
+body {
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #12232E;
+  color: white;
+  padding: 20px;
+
+}
+
+.hero {
+  font-size: 30px;
+  background-image: url("./assets/background/line.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 150px;
+  min-height: 100vh;
+  text-align: center;
+  background: image("dw");
+}
+.hero-Intro {
+  font-size: 30px;
+  color: rgb(114, 7, 82);
+  margin-bottom: 1px;
+  margin-top: 20px;
+}
+.hero-Title {
+  
+  padding: 5px;
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-Description {
+  color: green;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.btn-view {
+  display: inline-block;
+  padding: 10px 20px;
+  background: transparent;
+  color: cyan ;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right:700px;
+  margin-top: 70px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-view:hover{
+ background: #00d9ff;
+  color: black;
+
+  box-shadow:
+      0 0 10px #00d9ff,
+      0 0 25px #00d9ff,
+      0 0 45px #00d9ff;
+}
+
+.btn-contact {
+  display: inline-block;
+  padding: 10px 20px;
+  background: transparent;
+  color: cyan ;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right:5px;
+  margin-top: 70px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-contact:hover{
+ background: #00d9ff;
+  color: black;
+
+  box-shadow:
+      0 0 10px #00d9ff,
+      0 0 25px #00d9ff,
+      0 0 45px #00d9ff;
+}
